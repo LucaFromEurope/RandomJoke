@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html> 
+     <head>
+          <title> Joke generator </title>
+          <link rel="stylesheet" href="styles.css">
+          <script src="script.js"></script>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     </head>
+     <body>
+          <div class="title"> 
+               <h1> Joke Generator </h1>
+          </div>
+          <div class="joketext"> 
+
+               <p id="jokeText"></p>
+               
+               <p id="jokeSetup"></p>
+               <p id="jokeDelivery"></p>
+               
+          </div>
+          <div class="likebuttons">
+               <button onclick="likePressed()" id="likebttn"> Like </button>
+               <div>
+                    <button onclick="returnToJoke()"> Previous </button>
+                    <button onclick="getNextJoke()"> Next </button>
+               </div>
+               <button onclick="unlikePressed()" id="unlikebttn"> Unlike </button> 
+          </div>
+     </body>
+</html>
